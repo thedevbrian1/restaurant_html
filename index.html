@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant</title>
+    <style>
+      main {
+        padding: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <!-- Restaurant heading -->
+      <h1>Kil restaurant</h1>
+
+      <div>
+        <!-- Main dish heading -->
+
+        <h2>Awesome Dish</h2>
+        <img
+          src="https://amunafoods.com/wp-content/uploads/2021/10/IMG_2459.jpg"
+          alt="Fish"
+          width="250px"
+        />
+
+        <h3>Ingredients</h3>
+        <ol>
+          <li>200 g Fresh Oyster Mushrooms</li>
+          <li>1 tomato</li>
+          <li>Half onion</li>
+          <li>2 tbsp cooking oil</li>
+          <li>2 minced garlic cloves</li>
+        </ol>
+
+        <h3>Recipe</h3>
+
+        <ol>
+          <li>
+            First cut off the stems from the mushrooms. Then gently wash your
+            mushrooms and squeeze them gently to remove excess water. Tear the
+            mushrooms using your hands, or chop them horizontally using a knife
+          </li>
+          <li>Chop your onion and tomato into small slices.</li>
+          <li>
+            Place your pan or sufuria on medium heat and add 2 tbsps of oil.
+            When the oil is hot add your onions and minced garlic. When the
+            onions start turning light brown or golden color add the chopped
+            tomatoes and stir the mixture then cover with a lid to let the
+            tomatoes simmer into a paste then add salt and your choice of
+            spices.
+          </li>
+          <li>
+            Add the mushrooms into the mixture and mix thoroughly ensuring that
+            the oil, onion and tomato mixture is mixed with the mushrooms. Cover
+            the sufuria and let the heat cause mushrooms to release their
+            liquid. Let the mushrooms cook in their liquid for five minutes and
+            then add a quater cup of water and let the mushrooms cook for 5 more
+            minutes. By this time the mushrooms will be tender and ready.
+          </li>
+          <li>
+            Add your green onions or dhania to the mushroom stew and let it cook
+            for 2 more minutes then turn off the heat. The mushroom stew is now
+            ready to eat 😋
+          </li>
+          <li>
+            Serve with ugali, rice, chapati, or any other accompaniment of your
+            choice.
+          </li>
+          <li>Enjoy! 😋</li>
+        </ol>
+
+        <form method="post" action="/">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" />
+
+          <label>
+            Review
+            <textarea name="review"></textarea>
+          </label>
+
+          <input type="checkbox" name="like" id="like" />
+          <label for="like">I liked the dish</label>
+
+          <button type="submit">Submit review</button>
+        </form>
+      </div>
+
+      <h2>Other dishes</h2>
+      <ol>
+        <li>Pilau</li>
+        <li>Chicken</li>
+      </ol>
+
+      <!-- Name, image, price -->
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Image</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Pilau</td>
+            <td>
+              <img
+                src="https://cheflolaskitchen.com/wp-content/uploads/2019/12/DSC0362-East-african-pilau-pelau.jpg"
+                alt=""
+                width="50px"
+              />
+            </td>
+            <td>Ksh 800</td>
+          </tr>
+          <tr>
+            <td>Pizza</td>
+            <td>
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeo_JMT1ZvwUNMHneItLQcNgYbwRsSs2mqYA&s"
+                alt=""
+                width="50px"
+              />
+            </td>
+            <td>Ksh 900</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>
